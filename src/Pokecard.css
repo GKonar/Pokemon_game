@@ -24,7 +24,7 @@
   transition: .2s;
 }
 
-.Pokecard-img:hover {
-  transform: scale(1.1);
+.Pokecard:hover .Pokecard-img {
+  transform: scale(1.1) rotateY(180deg);
   background-color: #f1f2f6;
 }
