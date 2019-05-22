@@ -21,15 +21,12 @@ class Pokegame extends Component {
 
 		while (firstHand.length < secondHand.length) {
 			let randomInx = Math.floor(Math.random() * secondHand.length);
-			let randPokemon = secondHand.splice(randomInx, 1)[0];
+			let randPokemon = secondHand.splice(randomInx, 1)[0]; // array
 			firstHand.push(randPokemon);
 		}
 		// Counting exp for each hand
 		let exp1 = firstHand.reduce((exp, pokemon) => exp + pokemon.base_experience, 0);
-		console.log(exp1);
-
 		let exp2 = secondHand.reduce((exp, pokemon) => exp + pokemon.base_experience, 0);
-		console.log(exp2);
 
 		return (
 			<div className="Pokegame">
