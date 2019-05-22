@@ -1,3 +1,8 @@
-.Pokedex {
-  margin: 0 auto;
+.Pokedex-header {
+  text-align: center;
+}
+
+.Pokedex-cards {
+  display: flex;
+  justify-content: center;
 }
