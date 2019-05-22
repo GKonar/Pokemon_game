@@ -1,14 +1,21 @@
 .Pokecard {
   background-color: lightgrey;
   text-align: center;
-  width: 200px;
-  padding: 10px 0;
+  width: 15%;
+  padding: 10px 20px;
   padding-bottom: 25px;
   border-radius: 10px;
-  display: inline-block;
-  margin: 10px;
+  margin: 1.5rem;
+
+  display: flex;
+  flex-direction: column;
 }
 
 .Pokecard h2 {
   color: blue;
+}
+
+.Pokecard img {
+  width: 80%;
+  margin: 0 auto;
 }
